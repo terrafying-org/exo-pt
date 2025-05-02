@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84E2CCE42DC519CA00C23D40 /* astraDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = astraDebug.entitlements; sourceTree = "<group>"; };
 		FA3E988B2C725A0200E4E795 /* astra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3E988E2C725A0200E4E795 /* astraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astraApp.swift; sourceTree = "<group>"; };
 		FA3E98902C725A0200E4E795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		FA3E988D2C725A0200E4E795 /* astra */ = {
 			isa = PBXGroup;
 			children = (
+				84E2CCE42DC519CA00C23D40 /* astraDebug.entitlements */,
 				FA3E988E2C725A0200E4E795 /* astraApp.swift */,
 				FA3E98902C725A0200E4E795 /* ContentView.swift */,
 				FA3E98922C725A0300E4E795 /* Assets.xcassets */,
@@ -424,11 +426,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = astra/astra.entitlements;
+				CODE_SIGN_ENTITLEMENTS = astra/astraDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"astra/Preview Content\"";
-				DEVELOPMENT_TEAM = 8NFAS2P4ND;
+				DEVELOPMENT_TEAM = NMT7ZRKH68;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -449,8 +452,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.exolabs.astra;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = net.steve.astra;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = net.steve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -465,10 +472,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = astra/astra.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"astra/Preview Content\"";
-				DEVELOPMENT_TEAM = 8NFAS2P4ND;
+				DEVELOPMENT_TEAM = NMT7ZRKH68;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -489,8 +497,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.exolabs.astra;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = net.steve.astra;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = net.steve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -506,12 +518,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8NFAS2P4ND;
+				DEVELOPMENT_TEAM = NMT7ZRKH68;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.exolabs.astraTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.steve.astraTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -529,12 +541,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8NFAS2P4ND;
+				DEVELOPMENT_TEAM = NMT7ZRKH68;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.exolabs.astraTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.steve.astraTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -551,12 +563,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8NFAS2P4ND;
+				DEVELOPMENT_TEAM = NMT7ZRKH68;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.exolabs.astraUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.steve.astraUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -573,12 +585,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8NFAS2P4ND;
+				DEVELOPMENT_TEAM = NMT7ZRKH68;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.exolabs.astraUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.steve.astraUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
