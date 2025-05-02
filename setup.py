@@ -26,7 +26,7 @@ install_requires = [
   "rich==13.7.1",
   "scapy==2.6.1",
   "tqdm==4.66.4",
-  "transformers==4.50.0",
+  "transformers==4.51.0",
   "uuid==1.30",
   "uvloop==0.21.0",
   "tinygrad==0.10.2",
@@ -89,7 +89,7 @@ _add_gpu_requires()
 
 setup(
   name="exo",
-  version="0.0.1",
+  version="0.1.1",
   packages=find_packages(),
   install_requires=install_requires,
   extras_require=extras_require,
